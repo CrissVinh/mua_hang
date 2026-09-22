@@ -1,0 +1,29 @@
+
+    /* Khung bọc icon và số nhỏ */
+    .cart-icon-wrapper {
+        position: relative;
+        display: inline-block;
+        margin-right: 6px; /* Cách chữ Cart ra một chút */
+    }
+
+    .cart-icon-wrapper i {
+        font-size: 16px;
+    }
+
+    /* Badge số nhỏ kiểu Shopee */
+    #cart-count {
+        position: absolute;
+        top: -9px;              /* Đẩy lên góc trên */
+        right: -10px;           /* Lệch qua bên phải */
+        background-color: #a70808; /* Hoặc dùng màu cam Shopee: #ee4d2d */
+        color: #fff;            /* Chữ trắng */
+        font-size: 10px;        /* Cỡ chữ nhỏ gọn */
+        font-weight: bold;
+        line-height: 1;
+        padding: 2px 5px;       /* Khoảng cách đệm tạo hình tròn/bầu dục */
+        border-radius: 10px;    /* Bo góc tròn */
+        border: 1.5px solid #fff; /* Viền trắng viền ngoài giống hệt Shopee */
+        text-align: center;
+        min-width: 16px;
+        box-sizing: border-box;
+    }
