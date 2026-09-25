@@ -65,7 +65,7 @@ function Cart(){
                             <li><a href><i className="fa fa-star" /> Wishlist</a></li>
                             <li><a href="checkout.html"><i className="fa fa-crosshairs" /> Checkout</a></li>
                             <li><a href="cart.html"><i className="fa fa-shopping-cart" /> Cart</a></li>
-                            <li><a href="login.html"><i className="fa fa-lock" /> Login</a></li>
+                            <li><a href="login"><i className="fa fa-lock" /> Login</a></li>
                         </ul>
                         </div>
                     </div>
