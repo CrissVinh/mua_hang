@@ -15,7 +15,7 @@ function Warning(props){
     )
 }
 function Login2(){
-    const [showWarning, setShowWarning] = useState(true)
+    const [showWarning, setShowWarning] = useState(true)     /*  [gia tri hien tai,  ham thay doi gia tri]  */
 
     function hanldeToogleClick(){
         setShowWarning(!showWarning)
@@ -24,6 +24,7 @@ function Login2(){
         <div>
             <Warning warning = {showWarning}>
                 Warning
+                
                 <button onClick={hanldeToogleClick}>
 
                     {showWarning ? "Hide" : "Show"}

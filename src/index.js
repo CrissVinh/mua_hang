@@ -26,6 +26,7 @@ import MapTheoObj from './components/Bai12/MapTheoObj';
 
 // bai 31
 import A from './components/Bai31/A';
+import A2 from './components/Bai31/A2';
 
 const arr = ['iphone x', 'iphone 11', 'iphone duo', 'iphone pro max']
 const obj = {
@@ -57,6 +58,7 @@ root.render(
 
           {/* bai 31 */}
           <Route path='bai311' element = {<A/>}/>
+          <Route path='bai312' element = {<A2/>}/>
 
         </Routes>
       </App>

@@ -1,3 +1,4 @@
+import { useState } from "react";
 function MapTheoArr(props){
     function renderData(){
         let {arr} = props;
